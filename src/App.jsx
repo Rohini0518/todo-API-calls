@@ -70,17 +70,19 @@ function App() {
   // }, []);
 
   return (
-    <div>
+    <div className="container">
       <h1>API methods</h1>
       <Button onClick={fetchPosts} action="Fetch Data" />
       <input
         type="text"
+        placeholder="Enter post"
+        className="input-field"
         value={post}
         onChange={(e) => setPost(e.target.value)}
       />
       <Button onClick={addposts} action="Add Post" />
       {postFeeds.map((post, index) => (
-        <p key={index}>
+        <p className="post-item" key={index}>
           {post.title}{" "}
           <Button onClick={() => updatepost(post.id)} action="Update" />
             

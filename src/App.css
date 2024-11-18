@@ -8,3 +8,21 @@
 .poster-img{
   width:450px;
 }
+.button{
+  margin:2px;
+}
+
+.post-item{
+  border:1px solid goldenrod;
+  padding:5px;
+}
+
+.input-field{
+  padding:5px;
+  border-radius: 4px;
+}
+
+.container{
+  border: 2px solid greenyellow;
+  padding:10px;
+}
