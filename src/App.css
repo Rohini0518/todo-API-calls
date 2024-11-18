@@ -1,0 +1,10 @@
+#root {
+  min-width: 600px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.poster-img{
+  width:450px;
+}
